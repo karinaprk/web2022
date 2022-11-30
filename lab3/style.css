@@ -1,0 +1,40 @@
+body {
+    background: #f3f2f3;
+    color: #000000;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 12px;
+}
+
+#container {
+    background: #000000;
+    margin: 30px auto;
+    width: 1000px;
+    height: 500px;
+}
+
+#header {
+    background: #66CCCC;
+    height: 100px;
+    width: 100%;
+}
+
+#menu {
+    background: #bce68b;
+    float: left;
+    width: 80%;
+    height: 400px;
+}
+
+#content {
+    background: #93b071;
+    float: right;
+    width: 20%;
+    height: 400px;
+}
+
+#footer {
+    background: #fac0f6;
+    height: 200px;
+    width: 100%;
+    float: left;
+}
