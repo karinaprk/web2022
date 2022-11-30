@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id='maindiv'>
+        <form id='form'>
+            <ul>
+                <li>
+                    <label>Прізвище та ініціали:</label>
+                    <input id="name" name="name">
+                </li>
+                <li>
+                    <label>Група:</label>
+                    <input id="mail" name="group">
+                </li>
+                <li>
+                    <label>Варіант:</label>
+                    <textarea name="variant"></textarea>
+                </li>
+                <li>
+                    <label>Номер:</label>
+                    <textarea name="number"></textarea>
+                </li>
+                <li>
+                    <label for="email">Mail:</label>
+                    <textarea type="email" name="mail"></textarea>
+                </li>
+                <button class="button" type="submit">Відправити</button>
+            </ul>
+        </form>
+
+
+        <div id='showData'>
+            Response here
+        </div>
+
+        <div>
+            <p>Виберіть колір:</p>
+
+            <div>
+                <input type="color" id="colored">
+            </div>
+
+            <div id='squares'>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="sript.js"></script>
+
+</body>
+
+</html>
