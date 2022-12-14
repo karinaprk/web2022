@@ -1,0 +1,43 @@
+.colored_h2{
+    font-size: 40px;
+    background-color: yellow;
+}
+
+.colored_p{
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.colored_p_toggle{
+    font-size: 30px;
+    background-color: white;
+    color: red;
+}
+
+.colored_div{
+    font-size: 30px;
+    background-color: green;
+    color: white;
+}
+
+.colored_div_toggle{
+    font-size: 30px;
+    background-color: yellow;
+    color: black;
+}
+
+
+.img{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+.image_toggle{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 700px;
+    height: 500px;
+}
