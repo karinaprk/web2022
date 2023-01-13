@@ -1,0 +1,36 @@
+body {
+padding: 15px 15px 15px 15px;
+text-align: center;
+}
+button{
+background-color:#fff092; 
+border:2px solid #516364;
+margin-top: 25px;
+}
+button:hover{
+cursor: pointer;
+background-color:#ffe95d;
+}
+button:active{
+background-color:#ffe100;
+color: white;
+}
+#characters{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 50px;
+}
+#character {
+text-align: left;
+width: 250px;
+padding: 20px; 
+border:2px solid #516364;
+background-color:#64645145; 
+}
+img{
+height: 150px;
+width: 150px;
+border-radius: 10%;
+margin-left: 20%;
+}
